@@ -1,14 +1,13 @@
 package ie.spring.heroes;
 
-
-import ie.spring.heroes.configuration.Config;
 import org.springframework.boot.SpringApplication;
-import org.springframework.context.ApplicationContext;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class HeroesApplication {
 
     public static void main(String[] args) {
-        ApplicationContext applicationContext = SpringApplication.run(Config.class, args);
+        SpringApplication.run(HeroesApplication.class, args);
     }
 }
 

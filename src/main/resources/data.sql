@@ -18,3 +18,21 @@ VALUES
     ('Scott', 'Summers', 'Cyclops', 'Mutant/Human', 1963, 'Marvel'),
     ('Logan', NULL, 'Wolverine', 'Mutant/Human', 1974, 'Marvel'),
     ('Jean', 'Grey', NULL, 'Mutant/Human', 1963, 'Marvel');
+
+INSERT INTO cartoons (title, creator, year_appeared, genre)
+VALUES
+    ('The Simpsons', 'Matt Groening', 1989, 'Comedy'),
+    ('South Park', 'Trey Parker and Matt Stone', 1997, 'Comedy'),
+    ('Family Guy', 'Seth MacFarlane', 1999, 'Comedy'),
+    ('Rick and Morty', 'Justin Roiland and Dan Harmon', 2013, 'Sci-Fi Comedy'),
+    ('Avatar: The Last Airbender', 'Michael Dante DiMartino and Bryan Konietzko', 2005, 'Adventure'),
+    ('SpongeBob SquarePants', 'Stephen Hillenburg', 1999, 'Comedy'),
+    ('The Flintstones', 'William Hanna and Joseph Barbera', 1960, 'Comedy'),
+    ('Tom and Jerry', 'William Hanna and Joseph Barbera', 1940, 'Comedy'),
+    ('Looney Tunes', 'Warner Bros.', 1930, 'Comedy'),
+    ('Dragon Ball Z', 'Akira Toriyama', 1989, 'Action'),
+    ('Naruto', 'Masashi Kishimoto', 2002, 'Action'),
+    ('One Piece', 'Eiichiro Oda', 1999, 'Adventure'),
+    ('The Powerpuff Girls', 'Craig McCracken', 1998, 'Action Comedy'),
+    ('Dexter''s Laboratory', 'Genndy Tartakovsky', 1996, 'Comedy'),
+    ('Adventure Time', 'Pendleton Ward', 2010, 'Adventure');
