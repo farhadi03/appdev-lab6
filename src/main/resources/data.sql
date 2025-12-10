@@ -1,0 +1,20 @@
+INSERT INTO heroes (first_name, last_name, alias, origin, year_created, universe)
+VALUES
+    ('Peter', 'Parker', 'Spider-Man', 'Human', 1962, 'Marvel'),
+    ('Bruce', 'Wayne', 'Batman', 'Human', 1939, 'DC'),
+    ('Clark', 'Kent', 'Superman', 'Kryptonian', 1938, 'DC'),
+    ('Wade', 'Wilson', 'Deadpool', 'Human', 1991, 'Marvel'),
+    ('Diana', 'Prince', 'Wonder Woman', 'Amazonian', 1941, 'DC'),
+    ('Tony', 'Stark', 'Iron Man', 'Human', 1963, 'Marvel'),
+    ('Natasha', 'Romanoff', 'Black Widow', 'Human', 1964, 'Marvel'),
+    ('Stephen', 'Strange', 'Doctor Strange', 'Human', 1963, 'Marvel'),
+    ('Hal', 'Jordan', 'Green Lantern', 'Human', 1959, 'DC'),
+    ('Barry', 'Allen', 'The Flash', 'Human', 1956, 'DC'),
+    ('Thor', NULL, 'Thor', 'Asgardian', 1962, 'Marvel'),
+    ('Matt', 'Murdock', 'Daredevil', 'Human', 1964, 'Marvel'),
+    ('Jessica', 'Jones', NULL, 'Human', 2001, 'Marvel'),
+    ('Arthur', 'Curry', 'Aquaman', 'Atlantean/Human', 1941, 'DC'),
+    ('Victor', 'Stone', 'Cyborg', 'Human/Atlantean Hybrid', 1980, 'DC'),
+    ('Scott', 'Summers', 'Cyclops', 'Mutant/Human', 1963, 'Marvel'),
+    ('Logan', NULL, 'Wolverine', 'Mutant/Human', 1974, 'Marvel'),
+    ('Jean', 'Grey', NULL, 'Mutant/Human', 1963, 'Marvel');
